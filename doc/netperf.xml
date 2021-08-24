@@ -645,6 +645,9 @@ bytes  bytes   bytes    secs.    10^6bits/sec
                 <para>P90_LATENCY</para>
               </item>
               <item>
+                <para>P999_LATENCY</para>
+              </item>
+              <item>
                 <para>P99_LATENCY</para>
               </item>
               <item>
@@ -3025,6 +3028,12 @@ bytes  Bytes  bytes    bytes   secs.    per sec
           <tableterm><code>P90_LATENCY</code></tableterm>
           <item>
             <para>The 90th percentile value of &ldquo;latency&rdquo; or operation time (send, receive or request/response exchange depending on the test) as measured on the netperf side when the global <option>-j</option> option was specified. Units: Microseconds.</para>
+          </item>
+        </tableitem>
+        <tableitem>
+          <tableterm><code>P999_LATENCY</code></tableterm>
+          <item>
+            <para>The 99.9th percentile value of &ldquo;latency&rdquo; or operation time (send, receive or request/response exchange depending on the test) as measured on the netperf side when the global <option>-j</option> option was specified. Units: Microseconds.</para>
           </item>
         </tableitem>
         <tableitem>

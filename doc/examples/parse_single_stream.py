@@ -118,6 +118,7 @@ def add_stats_headers(header,delimeter):
     header+="Average"+delimeter
     header+="P90"+delimeter
     header+="P99"+delimeter
+    header+="P999"+delimeter
     header+="Max"+delimeter
     header+="Count"
     return header

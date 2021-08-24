@@ -1005,6 +1005,7 @@ or more of:
 @item P50_LATENCY
 @item P90_LATENCY
 @item P99_LATENCY
+@item P999_LATENCY
 @item MEAN_LATENCY
 @item STDDEV_LATENCY
 @end itemize
@@ -3956,6 +3957,11 @@ netperf side when the global @option{-j} option was specified. Units:
 Microseconds.
 @item P90_LATENCY
 The 90th percentile value of ``latency'' or operation time (send, receive or
+request/response exchange depending on the test) as measured on the
+netperf side when the global @option{-j} option was specified. Units:
+Microseconds.
+@item P999_LATENCY
+The 99.9th percentile value of ``latency'' or operation time (send, receive or
 request/response exchange depending on the test) as measured on the
 netperf side when the global @option{-j} option was specified. Units:
 Microseconds.

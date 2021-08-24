@@ -903,6 +903,8 @@ still be preceded by a `--'.  For example:
 
         * P99_LATENCY
 
+        * P999_LATENCY
+
         * MEAN_LATENCY
 
         * STDDEV_LATENCY
@@ -3678,6 +3680,12 @@ As of version 2.5.0 the output selectors are:
 
 `P90_LATENCY'
      The 90th percentile value of "latency" or operation time (send,
+     receive or request/response exchange depending on the test) as
+     measured on the netperf side when the global `-j' option was
+     specified. Units: Microseconds.
+
+`P999_LATENCY'
+     The 99.9th percentile value of "latency" or operation time (send,
      receive or request/response exchange depending on the test) as
      measured on the netperf side when the global `-j' option was
      specified. Units: Microseconds.
